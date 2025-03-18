@@ -1,0 +1,116 @@
+
+
+.container-proj{   
+    background-image: url(./image/lune.png);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    overflow: hidden;
+    
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.item{
+    position: absolute;
+    width: 480px;
+    height: 720px;
+    text-align: justify;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s;
+    left: calc(50% - 110px);
+    left: 33%;
+    top: 35%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.item img {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  max-width: 100%; /* Limite la largeur de l'image à 100% de son conteneur */
+  max-height: 400px; /* Limite la hauteur de l'image à 400px (ajustez selon vos besoins) */
+  object-fit: cover; /* Pour garder le ratio d'aspect tout en remplissant le conteneur */
+}
+#next, #prev{
+    position: absolute;
+    top: 60%;
+    color: #ebe5e5ab;
+    background-color: transparent;
+    font-family: monospace;
+    font-weight: bold;
+    left: 400px;
+    z-index: 2;
+}
+#next {
+  left: 68%;
+  width: 10px;
+}
+
+#prev {
+  left: 30%;
+  width: 10px;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #0a00cb63;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.oui{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  top: 20%;
+  right: 15%;
+  color: white;
+  background-color: #5f71aaec;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.MuiDrawer-paper {
+  background-color: #11089877; /* Couleur de fond du Drawer */
+  padding: 20px; /* Espacement intérieur */
+  width: 450px; /* Largeur du Drawer */
+  color: #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Ombre */
+}
+
+/* Styles pour les éléments de la liste dans le Drawer */
+.MuiListItem-root {
+  padding: 10px 15px; /* Espacement des éléments de la liste */
+  transition: background-color 0.3s ease; /* Transition pour le survol */
+}
+
+.MuiListItem-root:hover {
+  background-color: #e0e0e0; /* Couleur de fond au survol */
+}
+
+/* Styles pour le bouton d'ouverture du Drawer */
+.MuiButton-root {
+  top : 250px;
+  left : 75%;
+  position: absolute;
+  width: 150px; /* Largeur du bouton */
+  height: 50px; /* Hauteur du bouton */
+  margin: 10px; /* Marge autour du bouton */
+  color: white; /* Couleur du texte */
+}

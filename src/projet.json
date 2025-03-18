@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Life App",
+        "slides": [
+            "image/myapp.png",
+            "image/affs.png",
+            "image/med.png",
+            "image/subs.png",
+            "image/visionboard.png",
+            "image/habitstracker.png"
+        ],
+        "description": "Life is a comprehensive personal growth application designed to help you lead a more intentional and fulfilling life. Combining a robust habit tracker, a dedicated space for subliminal messages and daily affirmations, and a dynamic vision board, this app empowers you to monitor your routines, reinforce positive thinking, and visualize your goals—all within a sleek, intuitive interface. Whether you're building new habits, cultivating a positive mindset, or mapping out your dreams, Gestion de Vie serves as your all-in-one tool for daily self-improvement and motivation. This app was initialy made for my personal use, but I decided to share it with the world."
+    },
+    {
+        "title": "Conciergerie",
+        "slides": [
+            "image/m1.png",
+            "image/m2.png",
+            "image/m3.png",
+            "image/m4.png",
+            "image/m5.png",
+            "image/m6.png"
+        ],
+        "description": " Aura Domus is a comprehensive management platform designed specifically for Airbnb hosts. Our mission is to simplify and enhance your hosting experience by taking care of everything—from guest communications and bookings to housekeeping and maintenance. With our professional team and advanced technology, you can enjoy stress-free hosting while ensuring every guest receives exceptional service. Whether you're an experienced host or just starting out, our concierge service helps you maximize your rental income and maintain a pristine property, so you can focus on what truly matters."
+    },
+    {
+        "title": "Jeu du Berger",
+        "slides": [
+            "image/berger.png",
+            "image/berger2.png"
+        ],
+        "description": "Jeu du Berger is a simple Java game that we developed during our second year of University. The game is pretty easy to play. You must by all cost protect your sheeps from the wolves. You can move the shepherd using the arrow keys. The game is over when all the sheeps are dead. The game is pretty simple but it was a good way to learn the basics of Java."
+    },
+    {
+        "title": "Jeu du desert interdit",
+        "slides": [
+            "image/desert1.png",
+            "image/desert2.png",
+            "image/desert3.png",
+            "image/desert4.png",
+            "image/desert5.png"
+        ],
+        "description": "Desert Interdit is a Java project that reimagines classic board game mechanics in a digital format. Inspired by traditional gameplay, it immerses players in a mystical, forbidding desert where every decision counts. Featuring an intuitive graphical interface, the game brings the stark beauty of the desert to life, challenging players to navigate treacherous terrain and manage scarce resources through strategic planning. With its blend of nostalgia and modern interactivity, Desert Interdit offers an engaging, thought-provoking experience for both board game enthusiasts and digital gamers alike."
+    },
+    {
+        "title": "Plant wbsite/application",
+        "slides": [
+            "image/g1.png",
+            "image/g2.png",
+            "image/g3.png",
+            "image/g4.png",
+            "image/g5.png",
+            "image/g6.png",
+            "image/g7.png",
+            "image/g8.png",
+            "image/g9.png"
+        ],
+        "description": "This prototype was my first design project. I loved it in every aspect during the whole processus of developing it. I imagine an app for gardener to grow their own plants and never have to ask themselves when to water them or even what to use to take care of them. I also added a social media aspect in my app to make it more attractive and maybe find your next garden partner !"
+    },
+    {
+        "title": "Tree of Life",
+        "slides": [
+            "image/ProjetArbredeVie/arbre1.png",
+            "image/ProjetArbredeVie/arbre2.png",
+            "image/ProjetArbredeVie/arbre3.png",
+            "image/ProjetArbredeVie/arbre4.png",
+            "image/ProjetArbredeVie/arbre5.png"
+        ],
+        "description": "Tree of life is the last project we made during the bachelor. The goal of this project was to create a simple tree representing the life on earth since its begining. It was designed for children and school use. You can find any species of animal or plant on the tree and by clicking on it you can have more information about it. The whole project was made using Java and JavaFX."
+    }
+]

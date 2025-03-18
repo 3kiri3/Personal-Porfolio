@@ -1,0 +1,74 @@
+.folio-container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to bottom, rgba(62, 62, 61), #000000);
+    z-index: 0;
+    
+}
+
+.content h{
+    margin-top: 20px;
+    font-size: 90px;
+    left: 40%;
+    color: #2565E5;
+    position : absolute;
+    align-items: center;
+    font-family: "Aboreto", system-ui;
+    z-index: 1;
+}
+
+.content .slay{
+    font-size: 30px;
+    font-family: "Aboreto", system-ui;
+    width: auto;
+    left : 15%;
+    top : 20%;
+    position : absolute;
+    text-align: left;
+    z-index: 1;
+}
+
+.content .slayy{
+    font-size: 20px;
+    font-family: "Aboreto", system-ui;
+    width: 1040px;
+    left : 15%;
+    top : 30%;
+    position : absolute;
+    text-align: left;
+    color: white;
+    z-index: 1;
+}
+
+.carousel-image {
+    width: 100%; /* Prend toute la largeur de la cellule */
+    height: auto; /* Ajuste la hauteur automatiquement */
+    object-fit: cover; /* Ajuste la taille de l'image pour couvrir le conteneur */
+    border-radius: 10px; /* Arrondit les coins des images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet 3D */
+    margin: 0 15px; /* Ajoute une marge entre les images */
+    z-index: 1;
+}
+
+/* Styles pour le carrousel */
+.react-multi-carousel-list {
+    position: absolute;
+    width: 65%; /* Prend toute la largeur du conteneur */
+    top: 50%; /* Centre le carrousel verticalement */
+    left : 15%;
+    margin: 0 5px; /* Supprime la marge par défaut */
+    z-index: 1;
+}
+
+.react-multi-carousel-item {
+    height : 300px;
+    width: 300px; /* Largeur des cellules du carrousel */
+
+    display: flex; /* Utilise flexbox pour centrer le contenu */
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    margin: 0 10px;
+    z-index: 1;
+}
+

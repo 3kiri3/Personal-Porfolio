@@ -1,0 +1,99 @@
+.home-container {
+  height: 100vh; 
+  width: 100vw; 
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(62, 62, 61, 0.8);
+  backdrop-filter: blur(5px); 
+  z-index: -9; /* Placez l'élément en arrière-plan */
+}
+.home-background {
+  position: absolute;
+  right : 0;
+  width: 50vw; /* 100% de la largeur de la fenêtre */
+  height: 100vh; /* 100% de la hauteur de la fenêtre */
+  object-fit: cover; /* Ajuste la taille de l'image */
+  background-color: rgba(62, 62, 61, 0.8);
+  backdrop-filter: blur(5px); /* Applique l'effet de flou */
+  z-index: -9; /* Placez l'élément en arrière-plan */
+}
+
+.pellicule-container2 {
+top :45%;
+right: 35%;
+position : absolute;
+width: 350px; /* 50% de la largeur de la fenêtre */
+height: 350px;
+z-index: -10; /* Placez l'élément en arrière-plan */
+}
+
+.pellicule-container2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.pellicule-container {
+  width: 50vw; /* 50% de la largeur de la fenêtre */
+  height: 100vh; /* 100% de la hauteur de la fenêtre */
+  z-index: -11; /* Placez l'élément en arrière-plan */
+  overflow: hidden;
+}
+
+.pellicule-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.content {
+  margin-left: 20px; /* Espace entre la nav et le contenu principal */
+}
+
+.content h2 {
+  margin-top: 0; 
+  font-size: 150px; 
+  left: 5%;
+  color: rgb(55, 69, 195);
+  position : absolute;
+  align-items: center;
+  font-family: "Aboreto", system-ui;
+  z-index: 1;
+}
+
+.content .ppp{
+  color: rgb(218, 21, 50);
+  font-size: 50px;
+  font-family: "Aboreto", system-ui;
+  width: 500px;
+  right : 14%;
+  top : 40%;
+  position : absolute;
+  text-align: right;
+  z-index: 1;
+  transition: transform 0.1s ease-out;
+
+}
+
+.decorative-line {
+  width: 95%;
+  top : 90%;
+  position: absolute;
+  height: 2px;
+  background-color: #ffffff57;
+  z-index: 0;
+}
+
+.decorative-line2 {
+  rotate: 90deg; /* Rotation de 90 degrés */
+  width: 95%; /* Largeur de la ligne */
+  top: 90%; /* Position verticale */
+  left: 45%; /* Position horizontale */
+  position: absolute; /* Position absolue pour le défilement */
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: #ffffff92; /* Couleur de la ligne */
+  z-index: 0; /* Z-index pour le positionnement */
+  transition: transform 0.1s ease-out; /* Transition pour un effet fluide */
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Pride and Prejudice",
+        "description": " A witty and romantic tale of love, class, and misunderstandings between Elizabeth Bennet and Mr. Darcy.",
+        "appreciation": "My favorite book of all time. I love the characters (especially Mr Darcy), the setting, and the plot(a really good enemies to lover) . It's a timeless classic that never fails to captivate me.",
+        "slides": ["image/pride.jpg"]
+    },
+    {
+        "title": "Love hypothesis",
+        "description": "A fake-dating romance between a PhD student and a grumpy professor that turns into something real",
+        "appreciation": "I love the characters, the plot, and the writing style. Adam Carlsen was so well written and the scientific environment was perfectly described. It's a really good enemies to lovers romance novel. ",
+        "slides": ["image/love.jpg"]
+    },
+    {
+        "title": "Livre des coincidences",   
+        "description": "A reflective exploration of synchronicities and how meaningful coincidences shape our lives.",
+        "appreciation": "One of my favorite spiritual book. I love how there's no real coincidences in life and how everything is connected. We have the power to change our life and the universe is always listening. ",
+        "slides": ["image/coin.jpg"]
+    },
+    {
+        "title": "overwatch 2",
+        "description": "A fast-paced, team-based shooter with diverse heroes, strategic gameplay, and evolving storylines.",
+        "appreciation": "My favorite game. I play it everyday, I grinded to Master which is only 1% of the player base. Ana is my favorite character, I love her design and her gameplay. ",
+        "slides": ["image/ow.jpg"]
+    },
+    {
+        "title": "Non designers design book",
+        "description": "A practical guide to understanding design principles like contrast, alignment, repetition, and proximity.",
+        "appreciation": "Pretty interesting concepts from an experienced designer. I learned a lot about design and how to make things look good. I recommend it to anyone who wants to learn more about design. ",
+        "slides": ["image/non.jpg"]
+    },
+    {
+        "title": "fourth wing",
+        "description": " A thrilling fantasy about a young woman forced into a deadly dragon-riding academy where survival is everything",
+        "appreciation": "This is my favorite fantasy book (really good ,if not my best, discovery of 2024). very well written with a lot of plot twists and an interesting universe. ",
+        "slides": ["image/fw.jpg"]
+    },
+    {
+        "title": "it takes two",
+        "description": "A cooperative adventure game where a divorcing couple navigates a magical world to rebuild their relationship",
+        "appreciation": "This is my favorite fantasy book (really good ,if not my best, discovery of 2024). very well written with a lot of plot twists and an interesting universe. ",
+        "slides": ["image/it.png"]
+    }
+]

@@ -1,0 +1,104 @@
+.livre{
+    position: absolute;
+    margin-top: 46%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #101010;
+    overflow: hidden;
+}
+
+.livre-title{
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    width: 1400px;
+}
+
+.txt{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 1400px;
+}
+
+.description{
+    position: absolute;
+    top: -5%;
+    left: -225%;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    width: 270px;
+    height: 400px;
+}
+
+.description h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ebe5e5ab;
+}
+.container-livre{
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    width: 270px;
+    height: 400px;
+    display: flex;
+    transition: 0.5s;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.itemm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    background-color: transparent;
+    left: 0%;
+    top: 0%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.itemm img {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.sliderr{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#nextt, #prevv{
+    position: absolute;
+    top: 30%;
+    color: #ebe5e5ab;
+    background-color: transparent;
+    font-family: monospace;
+    font-weight: bold;
+    left: 400px;
+    z-index: 2;
+}
+#nextt {
+  left: 100%;
+  width: 10px;
+}
+
+#prevv {
+  left: -9%;
+  width: 10px;
+}

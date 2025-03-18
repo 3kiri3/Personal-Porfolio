@@ -1,0 +1,101 @@
+.hobbies{
+    position: absolute;
+    margin-top: 48%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #101010;
+}
+
+.hobbies-title{
+    position: absolute;
+    top: 42%;
+    left: -15%;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #d3d3d3;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    z-index: 2;
+    rotate: 90deg;
+    transition: transform 0.2s ease-out
+}
+
+.lune{
+    position: absolute;
+    top: -30%;
+    left: -10%;
+    height: 400px;
+    width : 400px;
+    background-image: url('./image/lune2.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.title-craft{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    color:white;
+    font-size: 8rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.explanation{
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    width : 500px;
+    height: 170px;
+    background-color: #d3d3d3a4;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.image-container {
+    position: absolute; 
+    transition: opacity 1s ease; 
+    opacity: 0; 
+    overflow: hidden;
+}
+
+.image-container.visible {
+    opacity: 1; 
+}
+
+.image-container img {
+    max-width: 100%; /* S'assure que l'image ne dépasse pas le conteneur */
+    max-height: 100%; /* Maintient le ratio d'aspect */
+}
+
+/* Positionnez chaque image selon vos besoins */
+.image1 {
+    top: 8%;
+    left: 10%;
+    width: 300px; /* Largeur fixe pour l'image 1 */
+    height: 300px;
+    overflow: hidden;
+}
+
+.image2 {
+    top: 55%;
+    left: 10%;
+    width: 300px; /* Largeur fixe pour l'image 2 */
+    height: 300px;
+}
+
+.image3 {
+    top: 30%;
+    left: 29%;
+    width: 600px; /* Largeur fixe pour l'image 3 */
+    height: 500px;
+}
+
+.image4{
+    top: 55%;
+    right: 15%;
+    width: 500px; /* Largeur fixe pour l'image 4 */
+    height: 500px;
+}

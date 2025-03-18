@@ -1,0 +1,119 @@
+.about{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 97.4vw;
+    background-color: #101010;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.about-title{
+    position: absolute;
+    top: 5%;
+    font-size: 6rem;
+    font-weight: bold;
+    color: #d3d3d3;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+}
+.about-content{
+    position: absolute;
+    top: 28%;
+    left: 60%;
+    width: 370px;
+    height: 420px;
+    font-size: 15px;
+    color: #d3d3d3;
+    background-color: #d3d3d36b;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+}
+.skills{
+    position: absolute;
+    top: 28%;
+    left: 30%;
+    width: 330px;
+    height: 200px;
+    background-color: #d3d3d36b;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    z-index: 1;
+}
+
+.skill-box {
+    margin-top: 20px;
+    margin-left: 15px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 50px; /* Hauteur des cases */
+    width: 50px; /* Largeur des cases */
+    border-radius: 5px; 
+}
+
+.about-button{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    width: 370px;
+    height: 150px;
+    background-color: #d3d3d3;
+    color: #101010;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+}
+
+
+
+.trait1{
+    position: absolute;
+    top: 17%;
+    width: 1400px;
+    height: 2px;
+    background-color: #ebe5e5ab;
+    margin: 20px auto;
+    z-index: 0;
+}
+
+.trait2{
+    position: absolute;
+    top: 90%;
+    width: 1400px;
+    height: 2px;
+    background-color: #ebe5e5ab;
+    margin: 20px auto;
+    z-index: 0;
+}
+
+.trait3{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 400px;
+    height: 2px;
+    background-color: #ebe5e5ab;
+    margin: 20px auto;
+    rotate: 90deg;
+    z-index: 0;
+}

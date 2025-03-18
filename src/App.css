@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.navbar {
+  width: 80px; /* Largeur de la barre de navigation */
+  height : 400px;
+  font-size: 15px; /* Taille du texte */
+  background-color: #3c4f7d6f; /* Couleur de fond */
+  display: flex;
+  top : 28%;
+  right : 0;
+  position: fixed;
+  justify-content: right; /* Centre le contenu horizontalement */
+  align-items: right; /* Centre le contenu verticalement */
+  border: 2px solid rgba(40, 74, 177, 0.537); /* Ajoute un contour noir */
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centre le texte dans la liste */
+}
+
+.navbar ul li {
+  margin: 60px 0; /* Ajustez cette valeur pour espacer les éléments */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fafafa;
+  
+}
+
+.navbar a:hover {
+  color: #007bff;
+}
+
+.pff {
+  margin-top: 46%;
+}
+
